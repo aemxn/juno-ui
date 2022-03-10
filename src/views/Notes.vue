@@ -18,7 +18,7 @@ import HeadingTitle from "../components/HeadingTitle.vue";
 import EmptyView from "../components/EmptyView.vue";
 
 export default {
-    name: "analytics",
+    name: "notes",
     components: { HeadingTitle, EmptyView },
     data () {
         return {

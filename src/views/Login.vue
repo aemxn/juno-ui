@@ -1,17 +1,19 @@
 <template>
   <div class="cont">
+    <HeadingTitle firstTitle="Enter Pin" secondTitle="" />
     <CodeInput :loading="false" class="input" v-on:change="onPinKeyUp" v-on:complete="onComplete" />
   </div>
 </template>
 
 <script>
 import CodeInput from "vue-verification-code-input";
+import HeadingTitle from "../components/HeadingTitle.vue";
 import { AUTH_REQUEST } from "../store/actions/auth";
 
 export default {
   name: "login",
   components: {
-    CodeInput
+    CodeInput, HeadingTitle
   },
   data() {
     return {

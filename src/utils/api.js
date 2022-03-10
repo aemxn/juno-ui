@@ -1,5 +1,5 @@
 const mocks = {
-    auth: { POST: { token: "This-is-a-mocked-token" } },
+    auth: { POST: { token: "123456" } },
     "user/me": { GET: { name: "doggo", title: "sir" } }
   };
   
