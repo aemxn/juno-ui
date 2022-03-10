@@ -19,22 +19,24 @@
   },
   "main": "background.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.4",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "core-js": "^3.6.5",
     "linkify-it": "^3.0.2",
     "moment": "^2.27.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.4.3"
+    "vue-router": "^3.4.3",
+    "vue-verification-code-input": "^1.0.0",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-eslint": "~4.4.0",
-    "@vue/cli-service": "~4.4.0",
+    "@vue/cli-service": "^4.5.13",
     "babel-eslint": "^10.1.0",
     "dotenv-webpack": "^2.0.0",
-    "electron": "^9.0.0",
+    "electron": "^9.4.4",
     "electron-devtools-installer": "^3.1.0",
     "electron-icon-builder": "^1.0.2",
     "eslint": "^6.7.2",
