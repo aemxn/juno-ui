@@ -24,7 +24,7 @@
     "bootstrap-vue": "^2.15.0",
     "core-js": "^3.6.5",
     "linkify-it": "^3.0.2",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "vue": "^2.6.11",
     "vue-router": "^3.4.3",
     "vue-verification-code-input": "^1.0.0",
