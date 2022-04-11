@@ -4,7 +4,7 @@ import store from "../store"
 import Explore from '../views/Explore.vue'
 import Create from '../views/Create.vue'
 import Analytics from '../views/Analytics.vue'
-import Notes from '../views/Notes.vue'
+import NotesPage from '../views/NotesPage.vue'
 import EditEntry from '../views/EditEntry.vue'
 import Login from '../views/Login.vue'
 
@@ -54,7 +54,7 @@ const routes = [
     {
         path: '/notes',
         name: 'Notes',
-        component: Notes,
+        component: NotesPage,
         beforeEnter: ifAuthenticated
     },
     {
