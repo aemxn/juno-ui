@@ -34,7 +34,7 @@ export default {
     .noteslist {
         max-width: 20rem;
         width: 30rem;
-        background: #ecfcff;
+        background: #ececec;
     }
 
     ul {
@@ -46,8 +46,8 @@ export default {
     }
 
     li {
-        padding: 1rem;
-        font-size: 1.25rem;
+        padding: 0.8rem;
+        font-size: 1.1rem;
         min-height: 1.5rem;
         white-space: nowrap;
         overflow: hidden;

@@ -1,12 +1,12 @@
 <template>
-<div class="notescontent">
+<div class="notes-content">
     <div v-if="note">
-        <label for="title">Title</label>
+        <label for="title">Title:</label>
         <input type="text" v-model="note.title" class="title" name="title" placeholder="Enter a title" />
-        <label for="content">Content</label>
-        <textarea class="content" name="content" v-model="note.content" placeholder="Enter some content"></textarea>
-        <button @click="deleteNote()">Delete Note</button>
-        <button @click="saveNote()">Save Note</button>
+        <label for="content">Content:</label>
+        <textarea class="content" name="content" v-model="note.body" placeholder="Enter some content"></textarea>
+        <b-button variant="outline-primary" @click="saveNote()">Save Note</b-button>
+        <b-button size="sm" variant="danger" @click="deleteNote()">Delete Note</b-button>
     </div>
     <div v-else>
         <strong>&larr; To start, create a new note!</strong>
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style lang="scss">
-    .notescontent {
+    .notes-content {
         width: 100%;
         padding: 2rem;
     }
@@ -51,13 +51,13 @@ export default {
 
     .content {
         resize: vertical;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         padding: 0.5rem;
         height: 20rem;
     }
 
     .title {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 0.5rem 1rem;
     }
 
@@ -69,7 +69,6 @@ export default {
     button {
         border-style: none;
         padding: 0.5rem 0.75rem;
-        background-color: #44abc3;
         margin-right: 1rem;
         border-radius: 0.25rem;
         color: white;

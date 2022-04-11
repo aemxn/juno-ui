@@ -16,4 +16,12 @@ module.exports = {
         var old_date = moment(month, 'M');
         return moment(old_date).format('MMMM');
     },
+
+    toast: function(obj, message, variant) {
+        obj.toast(message, {
+            title: 'Notification',
+            variant: variant,
+            solid: true
+        })
+    },    
 }
